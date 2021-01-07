@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MvcSampleApplication.Models.EmployeeTableModel>
+
+@{
+    ViewData["Title"] = "CacheIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>CacheIndex</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.empName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.empSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.empDob)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.empName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.empSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.empDob)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.empId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.empId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.empId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

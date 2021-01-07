@@ -1,0 +1,50 @@
+﻿
+@model IEnumerable<MvcSampleApplication.Models.EmployeeTableModel>
+
+@{
+    ViewData["Title"] = "ViewDataViewBagView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+
+@*ViewData Table*@
+
+<table class="table table-dark">
+    <tr>
+        <td>
+            empId
+        </td>
+        <td>
+            empName
+        </td>
+        <td>
+            empSalary
+        </td>
+        <td>
+            empDob
+        </td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.empId
+            </td>
+            <td>
+                @item.empName
+            </td>
+            <td>
+                @item.empSalary
+            </td>
+            <td>
+                @item.empDob
+            </td>
+        </tr>
+    }
+</table>
+

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" language="Javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $("#class1").css("border", "2px solid blue");
+
+        });
+        $(document).ready(function () {
+            $('input[id$="txtbox"]').val("priyanka");
+        });
+
+        $(document).ready(function () {
+            $("div p:first-child").css("border", "5px dashed blue");
+        });
+
+    </script>
+</head>
+<body>
+    <div id="class1">Tollplus</div>
+    <input type="text" id="txtbox" />
+
+    <div>
+        <p class="div1">india</p>
+        <p class="div1">contry</p>
+    </div>
+
+</body>
+</html>

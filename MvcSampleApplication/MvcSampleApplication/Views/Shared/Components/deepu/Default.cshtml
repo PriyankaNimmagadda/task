@@ -1,0 +1,15 @@
+﻿@model IEnumerable<EmployeeTableModel>
+
+<div class="card card-body bg-success text-white">
+    This is from Component page
+    <table class="table table-bordered table-hover">
+        <tr><th>Name</th><th>Age</th></tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(item.empId + " " + item.empName)</td>
+                <td>@item.empDob</td>
+            </tr>
+        }
+    </table>
+</div>    

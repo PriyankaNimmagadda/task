@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NewCore3xMVC",
+    "\\NewCore3xMVCAuth\\Controllers",
+    "\\NewCore3xMVCAuth\\Models",
+    "\\NewCore3xMVC\\Controllers",
+    "\\NewCore3xMVC\\Models",
+    "\\NewCore3xMVC\\Views"
+  ],
+  "SelectedNode": "\\NewCore3xMVC\\Models\\Address.cs",
+  "PreviewInSolutionExplorer": false
+}

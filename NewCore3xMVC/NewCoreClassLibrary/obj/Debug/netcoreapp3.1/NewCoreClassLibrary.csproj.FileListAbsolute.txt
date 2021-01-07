@@ -1,0 +1,17 @@
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\bin\Debug\netcoreapp3.1\NewCoreClassLibrary.deps.json
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\bin\Debug\netcoreapp3.1\NewCoreClassLibrary.dll
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\bin\Debug\netcoreapp3.1\NewCoreClassLibrary.pdb
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.csproj.CoreCompileInputs.cache
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.AssemblyInfoInputs.cache
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.AssemblyInfo.cs
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.dll
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.pdb
+D:\A-SNarayan\Sheo\Tutorials\DotNetCore2020\Apps\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.csprojAssemblyReference.cache
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\bin\Debug\netcoreapp3.1\NewCoreClassLibrary.deps.json
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\bin\Debug\netcoreapp3.1\NewCoreClassLibrary.dll
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.csprojAssemblyReference.cache
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.AssemblyInfoInputs.cache
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.AssemblyInfo.cs
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.csproj.CoreCompileInputs.cache
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.dll
+\\192.168.50.220\Freshers2020-Trainees\NewCore3xMVC\NewCoreClassLibrary\obj\Debug\netcoreapp3.1\NewCoreClassLibrary.pdb

@@ -1,0 +1,106 @@
+﻿@using MvcSampleApplication.Models;
+@model IEnumerable<EmployeeTableModel>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>Search</h1>
+
+        <form asp-action="Search">
+            <select name="field">
+                <option value=empId>empId</option>
+                <option value=empName>empName</option>
+                <option value=empSalary>empSalary</option>
+                <option value=empDob>empDob</option>
+            </select>
+            keyword:<input type="text" name="keyword" />
+            Submit:<input type="submit" value="search" />
+
+        </form>
+    @if(Model.Count()>0)
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        empId
+                    </th>
+                    <th>
+                        empName
+                    </th>
+                    <th>
+                        empSalary
+                    </th>
+                    <th>
+                        empDob
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @item.empId
+                    </td>
+                    <td>
+                        @item.empName
+                    </td>
+                    <td>
+                        @item.empSalary
+                    </td>
+                    <td>
+                        @item.empDob
+                    </td>
+
+                </tr>
+                }
+            </tbody>
+        </table>
+    }*@
+h1>Search</h1>
+<div class="card card-body bg-light">
+    <form asp-action="Search" class="form-inline">
+        <div class="form-group">
+            <label class="control-label">Field  &nbsp;&nbsp;</label>
+            <select name="field" class="form-control">
+                <option value="empId">ID</option>
+                <option value="empName">FullName</option>
+                <option value="empSalary">Salary</option>
+                <option value="empDob">Date Of Joining</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="control-label">&nbsp;&nbsp;keyword &nbsp;&nbsp; </label>
+            <input type="text" placeholder="keyword" name="keyword" id="keyword" required class="form-control" />
+        </div>
+        <div class="form-group">
+            &nbsp;&nbsp;<input type="submit" value="Go" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>DOJ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.empId</td>
+                    <td>@item.empName</td>
+                    <td>@item.empSalary</td>
+                    <td>@item.empDob</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

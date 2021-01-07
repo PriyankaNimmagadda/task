@@ -1,0 +1,61 @@
+﻿@*@model IEnumerable<MvcSampleApplication.Models.EmployeeTableModel>*@
+
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<MvcSampleApplication.Models.EmployeeTableModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{ 
+    await Html.RenderPartialAsync("_PartialView");
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                empName
+            </th>
+            <th>
+                empSalary
+            </th>
+            <th>
+                empDob
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.empName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.empSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.empDob)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.empId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.empId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.empId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+Page @(Model.PageCount<Model.PageNumber?0:Model.PageNumber/Model.PageCount)
+<div>
+    @Html.PagedListPager(Model, Page => Url.Action("Index", new
+{
+    Page = Page
+}))
+</div>
